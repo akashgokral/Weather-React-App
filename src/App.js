@@ -55,9 +55,11 @@ function App() {
                 <div className='city'><h1>{weather.name}</h1></div>
                 <div className='date'><h3>{date}</h3></div>
                 <div className='degree'><h1>{Math.round(weather.main.temp)}&deg;C</h1></div>
+              <h1 className='author'>App by Akash Gokral</h1>
               </div>
             </div>
-          ) : (<div className='nodata'><h1>Enter a Location</h1></div>)
+          ) : (<div className='nodata'><h1>Enter a Location</h1>
+          <h1 className='author'>App by Akash Gokral</h1></div>)
         }
       </div>
     </div >

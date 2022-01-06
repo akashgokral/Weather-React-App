@@ -21,6 +21,7 @@ body{
 }
 
 .maindiv{
+    position: relative;
     background-image: url(./Assets/cold-bg.jpg);
     background-size: cover;
     background-position: center;
@@ -125,4 +126,11 @@ font-size: 20px;
 font-weight: 500;
 font-style: italic;
 text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.author{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    font-size: 13px;
 }
