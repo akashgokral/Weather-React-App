@@ -1,7 +1,0 @@
-Username - akashgokral1997
-
-Password - akash123
-
-Api Key - 32eebe6e02a23d3b5ad19d9f19b18710
-
-Api Data URl - api.openweathermap.org/data/2.5/weather?q={city name}&units=metric&appid={API key} 
